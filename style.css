@@ -1,0 +1,363 @@
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+/* Start Header Area */
+.header-area{
+	background: #f1c40f;
+	padding: 60px 0;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.header-top:after{
+	content: '';
+	clear: both;
+	display:block;
+}
+.logo-area{
+	width: 10%;
+	float: left;
+}
+.menu-area{
+	width: 90%;
+	float: left;
+}
+.menu-area ul{
+	text-align: right;
+}
+.menu-area ul li{
+	display:inline-block;
+}
+.menu-area ul li a{
+	text-decoration:none;
+	text-transform:uppercase;
+	color: #fff;
+	margin-right: 10px;
+	padding: 6px 20px;
+}
+.menu-area ul li:last-child a{
+	margin-right: 0;
+}
+.menu-area ul li:hover a,
+.menu-area ul .active a{
+	background: #2c3e50;
+	padding: 6px 20px;
+	border-radius: 5px;
+}
+.header-middle{
+	margin-top: 140px;
+	margin-bottom: 80px;
+}
+.header-middle p{
+	font-size: 42px;
+	font-weight: bold;
+	color: #fff;
+	width: 85%;
+	margin: auto;
+	text-align: center;
+}
+.orange-btn{
+	text-align: center;
+	margin-bottom: 80px;
+}
+.orange-btn a,
+.load-more a,
+.submit-btn input{
+	color: #fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-weight: 600;
+	font-size: 18px;
+	background: #eb7d4b;
+	padding: 20px 80px;
+	border-radius: 5px;
+	border-bottom: 4px solid #c86a40;
+}
+.mobile-menu{
+	display: none;
+}
+/* End Header Area */
+/* Start Service Area */
+.padd-80{
+	padding: 80px 0;
+}
+.service-area{
+	background: #17c2a4;
+}
+.service-title{
+	text-align: center;
+	color: #fff;
+}
+h2{
+	font-size: 40px;
+	margin: 0;
+	margin-bottom: 10px;
+}
+hr{
+	border: 0;
+	border-top: 4px solid #14a58c;
+	width: 85px;
+}
+.service-title p{
+	width: 55%;
+	margin: 20px auto;
+	font-size: 18px;
+}
+.row{
+	overflow: hidden;
+	text-align: center;
+	margin-top: 80px;
+}
+.col-1-4{
+	width: 25%;
+	float: left;
+	overflow: hidden;
+}
+h4{
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.service-area .col-1-4 p{
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+	line-height: 1.3;
+	width: 70%;
+	margin: auto;
+}
+.service-area .col-1-4 img{
+	height: 110px;
+}
+/* End Service Area */
+/* Start Team Area */
+.team-area{
+	background: #e7f1f8;
+}
+.team-title{
+	text-align: center;
+}
+.team-title h2,
+.team-title p,
+.team-area .col-1-4 h4{
+	color: #3c4761;
+}
+.team-title hr{
+	border-color: #c8d9e5;
+}
+.team-area .col-1-4 img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.team-area h5{
+	color: #30bae7;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+	margin-bottom: 30px;
+}
+.team-area .col-1-4 h4{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.team-area .col-1-4 p{
+	color: #3c4761;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.3;
+	width: 70%;
+	margin: auto;
+}
+.social-icon{
+	margin-top: 30px;
+}
+.social-icon ul{
+	margin: 0;
+	padding: 0;
+}
+.social-icon ul li{
+	display:inline-block;
+	margin-right: 10px;
+}
+.social-icon ul li:last-child{
+	margin-right: 0;
+}
+.social-icon ul li a{
+	text-decoration:none;
+}
+.social-icon ul li a i{
+	background: #bdd1df;
+	color: #fff;
+	padding: 10px;
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+	border-radius: 50%;
+}
+/* Start gallery area */
+.gallery-area{
+	background: #ffdd99;
+}
+.gallery-title{
+	text-align: center;
+}
+.gallery-title h2{
+	color: #393939;
+}
+.gallery-title hr{
+	border-color: #e5c37f;
+}
+.gallery-title p{
+	color: #60584a;
+	width: 60%;
+	margin: 20px auto;
+	font-size: 18px;
+}
+
+.col-1-2{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 60px;
+}
+.gallery-area .col-1-2 img{
+	width: 90%;
+}
+.gallery-area .col-1-2 p{
+	color: #393939;
+	font-size: 18px;
+	text-transform:uppercase;
+}
+.load-more{
+	text-align: center;
+}
+.load-more a{
+	background: #17c2a4;
+	border-color: #14a58c;
+}
+/* About Area */
+.about-area{
+	background: #f368e0;
+}
+.about-title{
+	color:#fff;
+	text-align: center;
+}
+.about-title hr{
+	border-color: #b73c6d;
+}
+.photo{
+	width: 20%;
+	float: left;
+	margin-right: 10%;
+}
+.photo img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.client-review{
+	width: 60%;
+	float: left;
+	text-align: left;
+}
+.client-review q{
+	font-size: 21px;
+	color: #fff;
+	font-style: italic;
+	line-height: 1.5;
+}
+.client-review h4{
+	margin: 0;
+	margin-top: 20px;
+}
+.client-review h5{
+	margin: 0;
+	font-size: 18px;
+	font-weight: 400;
+	color: #ffdd99;
+}
+.mt-100{
+	margin-top: 100px;
+}
+/* Contact Us area */
+.contact-area{
+	background: #3c5499;
+}
+.contact-title{
+	color:#fff;
+	text-align: center;
+}
+.contact-title hr{
+	border-color: #273a71;
+}
+.contact-area form{
+	width: 70%;
+	margin: auto;
+	margin-top: 60px;
+}
+.contact-area input[type="text"],
+.contact-area input[type="email"],
+.contact-area textarea{
+	width: 100%;
+	box-sizing: border-box;
+	background: #273a71;
+	padding: 12px;
+	border-radius: 5px;
+	border: 1px solid #273a71;
+	color: #fff;
+}
+.contact-area label{
+	color: #fff;
+	font-size: 18px;
+}
+.contact-area span{
+	color: red;
+}
+.one-half{
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.half1{
+	width: 48%;
+	float: left;
+	margin-right: 4%;
+	position: relative;
+}
+.half1 label{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.half2{
+	width: 48%;
+	float: left;
+	position: relative;
+}
+.half2 label{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.sms{
+	position: relative;
+}
+.sms label{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.submit-btn{
+	margin-top: 60px;
+}
+.submit-btn input{
+	border: 0;
+	border-bottom: 4px solid #299ec5;
+	background: #30bae7;
+	font-family: 'Titillium Web', sans-serif;
+	width: 40%;
+	margin: auto;
+	display:block;
+}
